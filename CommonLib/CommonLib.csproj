@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CommonLib</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CommonLib\rev.txt" />
+    <EmbeddedResource Include="CommonLib\rev.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Facepunch.Steamworks.vs2015, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\libs\Facepunch.Steamworks.vs2015.dll</HintPath>
+    </Reference>
+    <Reference Include="FNA, Version=20.11.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\libs\FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpFont, Version=4.0.1.200, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\libs\SharpFont.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="FNA">
+      <HintPath>..\..\..\OneDrive\Documents\DumpSOR4\lib\FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.vs2015">
+      <HintPath>..\..\..\OneDrive\Documents\DumpSOR4\lib\Facepunch.Steamworks.vs2015.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpFont">
+      <HintPath>..\..\..\OneDrive\Documents\DumpSOR4\lib\SharpFont.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

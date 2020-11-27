@@ -1,0 +1,41 @@
+namespace CommonLib
+{
+	public enum CurveKeyTypeEnum
+	{
+		once = 0,
+		hold = 1,
+		linear = 2,
+		easeIn = 3,
+		easeOut = 4,
+		smooth = 5,
+		quadraticEaseInOut = 6,
+		cubicEaseIn = 7,
+		cubicEaseOut = 8,
+		cubicEaseInOut = 9,
+		quarticEaseIn = 10,
+		quarticEaseOut = 11,
+		quarticEaseInOut = 12,
+		quinticEaseIn = 13,
+		quinticEaseOut = 14,
+		quinticEaseInOut = 0xF,
+		sineEaseIn = 0x10,
+		sineEaseOut = 17,
+		sineEaseInOut = 18,
+		circularEaseIn = 19,
+		circularEaseOut = 20,
+		circularEaseInOut = 21,
+		exponentialEaseIn = 22,
+		exponentialEaseOut = 23,
+		exponentialEaseInOut = 24,
+		elasticEaseIn = 25,
+		elasticEaseOut = 26,
+		elasticEaseInOut = 27,
+		backEaseIn = 28,
+		backEaseOut = 29,
+		backEaseInOut = 30,
+		bounceEaseIn = 0x1F,
+		bounceEaseOut = 0x20,
+		bounceEaseInOut = 33,
+		count = 34
+	}
+}
